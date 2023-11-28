@@ -19,3 +19,7 @@ Der Aufbau des Repos folgt der [Polylith-Architektur](https://polylith.gitbook.i
 - development: Alles, was man so zum entwickeln braucht, aber nicht fürs fertige Produkt
 - bases: Die Einsprungpunkte aller Apps
 - components: Für sich stehende Einzelteile, die unter allen Apps geteilt werden können
+
+## Übungsapp
+
+`git switch buggy-game`
