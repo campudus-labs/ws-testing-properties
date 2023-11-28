@@ -1,0 +1,6 @@
+((typescript-mode . ((lsp-clients-deno-import-map . "import_map.json")
+                     (lsp-disabled-clients . (ts-ls)))))
+((typescript-ts-mode . ((lsp-clients-deno-import-map . "import_map.json")
+                        (lsp-disabled-clients . (ts-ls)))))
+((typescript-tsx-mode . ((lsp-clients-deno-import-map . "import_map.json")
+                         (lsp-disabled-clients . (ts-ls)))))
