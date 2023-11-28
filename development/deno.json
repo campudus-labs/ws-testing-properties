@@ -1,0 +1,6 @@
+{
+  "importMap": "../import_map.json",
+  "tasks": {
+    "dev": "deno bundle ../bases/webapp/index.tsx --no-check --watch bundle.js & deno run -A server.ts"
+  }
+}
