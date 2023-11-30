@@ -45,8 +45,6 @@ export const Game = () => {
     ? "in-progress"
     : compare(player.hand, dealer.hand);
 
-  console.log("hello");
-
   const handleMove = (kind: "hit" | "stand") => () => {
     const newPlayer = kind === "hit" ? hit(player.hand) : Stand(player.hand);
     const newDealer = isNormal(countScore(newPlayer.hand))

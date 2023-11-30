@@ -27,7 +27,6 @@ export const Header = ({ gameState }: { gameState: GameState }) => {
     () => (gameState === "in-progress" ? undefined : toMessage(gameState)),
     [gameState],
   );
-  console.log({ gameState });
 
   return (
     <header>
