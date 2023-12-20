@@ -28,9 +28,20 @@ Der Aufbau des Repos folgt der
 
 Das Repo enthält die ultimative Blackjack-Game-App 2023!
 
+Starten:
+
+``` shell
+cd development
+deno task dev
+```
+
 Leider hat sich mindestens ein Bug in der Spiellogik der Komponente
 `@components/blackjack` eingeschlichen. Können wir unter Umständen eine testbare
 Eigenschaft identifizieren, die uns weiterhilft?
 
 Natürlich kann man auch das Frontend aufhübschen, sei es visuell,
 UI/UX-bezüglich oder code-technisch...
+
+## Ein möglicher Test, der einen Bug über eine Eigenschaft findet
+
+`git switch buggy-game-test`
