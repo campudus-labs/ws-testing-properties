@@ -42,6 +42,3 @@ Eigenschaft identifizieren, die uns weiterhilft?
 Natürlich kann man auch das Frontend aufhübschen, sei es visuell,
 UI/UX-bezüglich oder code-technisch...
 
-## Ein möglicher Test, der einen Bug über eine Eigenschaft findet
-
-`git switch buggy-game-test`
